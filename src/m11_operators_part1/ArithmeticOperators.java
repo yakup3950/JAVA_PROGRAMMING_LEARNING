@@ -6,7 +6,7 @@ package m11_operators_part1;
 public class ArithmeticOperators {
     public static void main(String[] args) {
 
-       /*int num1=10;
+       /* int num1=10;
         int num2=5;
         int result1, result2, result3, result4, result5, result6, result7, result8;
 
@@ -36,11 +36,11 @@ public class ArithmeticOperators {
         System.out.println(10 - 5);
         System.out.println(10 / 5);
         System.out.println(10 * 5);
-        System.err.println(10 / 4);
-        System.err.println(10.0 / 4);
-        System.err.println(10 / 4.0);
-        System.err.println(10D / 4);
-        System.err.println(10 / 4D);
+        System.err.println(10 / 4); //2
+        System.err.println(10.0 / 4);//2.5
+        System.err.println(10 / 4.0);//2.5
+        System.err.println(10D / 4);//2.5
+        System.err.println(10 / 4D);//2.5
 
     }
 }
