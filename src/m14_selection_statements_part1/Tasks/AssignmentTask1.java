@@ -1,5 +1,5 @@
 package m14_selection_statements_part1.Tasks;
-public class Assignment {
+public class AssignmentTask1 {
     public static void main(String[] args) {
 
         int x = 0;
