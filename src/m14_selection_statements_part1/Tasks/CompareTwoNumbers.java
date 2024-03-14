@@ -7,16 +7,15 @@ public class CompareTwoNumbers {
         int b = 30;
         String result;
 
-    if(a != b){
-        if(a > b){
-            result = a + " greater than " + b;
-        }else {
-             result = b + " greater than " + a;
+        if (a != b) {
+            if (a > b) {
+                result = a + " greater than " + b;
+            } else {
+                result = b + " greater than " + a;
+            }
+            System.out.println(result);
+        } else {
+            System.err.println("NUMBERS ARE EQUAL");
         }
-        System.out.println(result);
-    }else {
-        System.err.println("NUMBERS ARE EQUAL");
-    }
-
     }
 }
