@@ -5,21 +5,19 @@ public class ReturnMethodMathematicalProcess {
     public static void main(String[] args) {
         double num1 = 10;
         double num2 = 20;
-        char mathOpt = '/';
+        char mathOpt = '*';
 
-        System.out.println(calculate(num1,mathOpt,num2));
+        System.out.println(calculate(num1, mathOpt, num2));
     }
 
-
     public static double calculate(double num1, char mathOperator, double num2) {
+        boolean operators = mathOperator == '+' || mathOperator == '-' || mathOperator == '*' || mathOperator == '/' || mathOperator == '%';
 
-            double result = num1 + mathOperator + num2;
-
-            if(mathOperator=='+'|| mathOperator=='-'|| mathOperator=='*'||mathOperator=='/'||mathOperator=='%'){
-                return result;
-            }else {
-                return 0;
-            }
+        if (!operators) {
+            return 0;
+        }
+            double result = (mathOperator == '+')?num1+num2:(mathOperator == '-')?num1-num2:(mathOperator == '*')?num1*num2:(mathOperator == '/')?num1/num2:0;
+            return result;
     }
 }
 
