@@ -11,7 +11,7 @@ public class OddOrEven {
         int number = scanner.nextInt();
         System.out.println("Result :");
         oddOrEven(number);
-
+        scanner.close();
     }
 
     public static void oddOrEven(int number){
