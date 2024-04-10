@@ -7,6 +7,7 @@ public class ArraysUtilityClassIntro {
     public static void main(String[] args) {
 
         // toString(arr): Returns a string representation of the contents of this array
+
         int[] numbers = {43, 12, 4, 1, 3, 5};
                 System.out.println("--------------------------");
                 System.out.println("1.1- " + numbers);
@@ -14,6 +15,7 @@ public class ArraysUtilityClassIntro {
                 System.out.println("--------------------------");
 
         // equals(arr): checks if both arrays are equal, returns boolean
+
         int[] n1 = {4, 5, 6, 10, 100};
         int[] n2 = {4, 5, 6, 10, 100};
         int[] n3 = n1;
@@ -26,6 +28,7 @@ public class ArraysUtilityClassIntro {
                 System.out.println("--------------------------");
 
         // sort(arr): Sorts the elements of an array in ascending order
+
         int[] scores = {95, 85, 90, 65, 55, 75};
         String[] languages = {"Zulu", "Spanish", "Italian", "English", "Polish", "Arabic"};
 
@@ -39,6 +42,7 @@ public class ArraysUtilityClassIntro {
 
         // binarySearch(arr, value): Searches for the specified element in the array with the help of
         // the Binary Search Algorithm. The array must be sorted in ascending order.
+
         int[] numX = {4, 6, 18, 7, 10, 55};
                 System.out.println("--------------------------");
                 System.out.println("4.1 " + Arrays.binarySearch(numX, 7));//it does not work properly
@@ -58,7 +62,6 @@ public class ArraysUtilityClassIntro {
                 System.out.println("5.3 " +Arrays.toString(newArray) );
                 System.out.println("--------------------------");
 
-
         // copyOfRange(arr, from, to): copies the specified range of the specified array, and returns new array
         int[] nums = {0, 1, 2, 3, 4, 5, 6};
         int[] newNums =Arrays.copyOfRange(nums, 2, 5);
@@ -73,7 +76,5 @@ public class ArraysUtilityClassIntro {
                 System.out.println("7.2 " + Arrays.toString(nums2));
                 Arrays.fill(nums2, 20);
                 System.out.println("7.3 " + Arrays.toString(nums2));
-
     }
-
 }
