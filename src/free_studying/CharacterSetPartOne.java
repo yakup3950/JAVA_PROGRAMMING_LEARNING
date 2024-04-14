@@ -36,7 +36,6 @@ public class CharacterSetPartOne {
         String str = sc.next();
         System.out.println(" -->");
 
-
         //STRING
         String mainStr = sequenceOfCharacters('X', '}');
         System.out.println();
@@ -44,7 +43,6 @@ public class CharacterSetPartOne {
         //CHAR
         String ascii = sequenceOfCharacters(str);
         System.out.println(str + " --> " + ascii);
-
 
         System.out.println("The char set is --> " + mainStr);
     }
