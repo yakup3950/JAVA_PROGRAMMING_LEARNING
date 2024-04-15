@@ -35,20 +35,26 @@ String format = "format: About 3,940,000,000 results (0.39 seconds)";
 //
             Random rand = new Random();
 
-            long searchResults =   rand.nextLong(120);
+        long searchResults = rand.nextLong(120_000_000L);
             System.out.println("RANDOM SEARCH RESULTS: " + searchResults);
             double random = Math.random();
             System.out.println("RANDOM RANGE: " + random);
 
-            if (searchResults <= 100 || random < 0.85) {
+
+        if (searchResults <= 100_000_000 || random < 0.85) {
                 System.out.println("Good Search");
                 if (random <= 0.85){
-                    System.out.println("the functionality is working properly");
+                    System.out.print("the functionality is working properly : ");
+                    System.out.println("About " + searchResults + " results ( " + random + " seconds)");
                 }else {
                     System.err.println("Check the functionality");
+                    System.out.println("About " + searchResults + " results ( " + random + " seconds)");
+
                 }
             } else {
                 System.err.println("Narrow your search, too many results");
+            System.out.println("About " + searchResults + " results ( " + random + " seconds)");
+
             }
     }
 }
