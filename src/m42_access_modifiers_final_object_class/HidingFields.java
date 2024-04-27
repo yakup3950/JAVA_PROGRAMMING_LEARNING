@@ -34,5 +34,4 @@ public class HidingFields {
         System.out.println(c.b);
 
     }
-
 }
