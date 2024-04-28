@@ -1,4 +1,4 @@
-package free_studying;
+package free_studying.week6;
 
 /*
 2. SortedOrder
@@ -12,11 +12,12 @@ package free_studying;
 
             input: "abzy"
             output: false
-
  */
+
 public class AlphabeticalOrder {
 
     public static void main(String[] args) {
+
         System.out.println(alphabeticalOrder("cegzi"));
     }
 
