@@ -40,7 +40,7 @@ public class Bot {
         String conversation = "";
         String respond = "";
 
-        System.out.println(RED + "Hello! I am miniBot." + RESET);
+        System.out.println(RED + "Hello! I am mini-Bot." + RESET);
 
         do {
             System.out.println(RED + "Ask me something : " + RESET);
